@@ -14,4 +14,4 @@ permissions:
 hooks:
     AfterInstall:
      - location: scripts/installapache.sh
-       runas: root
+       runas: codedeployuser
