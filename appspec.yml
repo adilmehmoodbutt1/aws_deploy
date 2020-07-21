@@ -13,5 +13,5 @@ permissions:
         - file
 hooks:
     AfterInstall:
-     - location: Scripts/ubuntuinstallapache.sh
+     - location: scripts/installapache.sh
        runas: root
